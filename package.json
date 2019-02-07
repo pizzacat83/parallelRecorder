@@ -1,0 +1,24 @@
+{
+  "name": "parallel-recorder",
+  "version": "0.0.0",
+  "description": "ボイスチェンジャーの学習データを作るための録音アプリ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pizzacat83/parallelRecorder.git"
+  },
+  "author": "pizzacat83",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pizzacat83/parallelRecorder/issues"
+  },
+  "homepage": "https://github.com/pizzacat83/parallelRecorder#readme",
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-plugin-react": "^7.12.4"
+  },
+  "dependencies": {}
+}
