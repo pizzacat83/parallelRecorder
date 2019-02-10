@@ -16,12 +16,10 @@ async function get(url, responseType='text'){
     });
 }
 
-async function drawPitch(path, container){
+async function drawPitch(path){
     const res=await get(path.replace('.','_')+'.frq');
     const frq=JSON.parse(res);
-    const canvas=container.getElementsByTagName('wave')[0].getElementsByTagName('canvas')[0].cloneNode(false);
-    canvas.style['z-index']='4';
-    container.getElementsByTagName('wave')[0].appendChild(canvas);
+    const canvas=document.getElementById('dst-pitch-area');
     const ctx = canvas.getContext('2d');
     ctx.strokeStyle='hotpink';
     ctx.lineWidth=2;
