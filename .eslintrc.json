@@ -31,7 +31,8 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "no-var": "error"
     },
     "globals": {
         "WaveSurfer": true
